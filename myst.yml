@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: fd5a3b85-c613-446a-9648-693b41b39ce1
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/tamura003-toyo/asaka-fieldstudy-ay25
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: intro.md
+    - file: wtp_conjoint.md
+    - file: fa_ethical.md
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
