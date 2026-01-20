@@ -67,37 +67,3 @@ html {
         height: auto;
     }
 }
-
-/* Accordion visuals */
-.h3-accordion {
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    border-radius: 12px;
-    padding: 0.4rem 0.6rem;
-    margin: 0.8rem 0;
-}
-
-.h3-summary {
-    cursor: pointer;
-    font-weight: 650;
-    list-style: none;
-}
-
-.h3-accordion>summary::-webkit-details-marker {
-    display: none;
-}
-
-.h3-body {
-    margin-top: 0.6rem;
-}
-
-/* Ensure our class also styles dropdown admonitions */
-.h3-accordion {
-    border-radius: 12px;
-}
-
-/* Make details/summary tap-friendly */
-.h3-accordion>summary {
-    cursor: pointer;
-    font-weight: 650;
-}
-
