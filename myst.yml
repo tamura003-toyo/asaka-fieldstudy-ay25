@@ -14,6 +14,7 @@ project:
     - file: fa_ethical.md
 site:
   template: book-theme
-  # options:
+  options:
+    style: ./styles/mobile.css
   #   favicon: favicon.ico
   #   logo: site_logo.png
